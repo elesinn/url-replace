@@ -1,12 +1,11 @@
 {
-  "name": "vite-web-extension",
-  "displayName": "Web Extension Boilerplate",
-  "version": "1.0.4",
-  "description": "A simple chrome extension template with Vite, React, TypeScript and Tailwind CSS.",
+  "name": "url-replace",
+  "displayName": "URL replace",
+  "version": "0.0.1",
+  "description": "Alright, this Chrome extension is like a magical unicorn that farts rainbows and turns your boring old URL into a shiny new one! Just click the sparkly button added to your toolbar, and bam! You'll be prompted to enter a new, exciting URL that will transport you to a land of endless possibilities (or at least, a different webpage). It's easy to customize the extension to run only on certain websites, so you can keep your normal browsing habits while still enjoying the rainbow-farting magic on the sites you choose. You can save your new URL for future use or change it up whenever you feel like living on the wild side. So why not give it a try? It's sure to add a little excitement to your internet adventures.",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/JohnBra/web-extension.git"
+    "type": "git"
   },
   "scripts": {
     "build": "tsc --noEmit && vite build",
@@ -14,8 +13,10 @@
   },
   "type": "module",
   "dependencies": {
+    "daisyui": "^2.47.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "use-chrome-storage": "^1.0.8"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.180",
